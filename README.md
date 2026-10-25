@@ -1,15 +1,14 @@
-# 서버 운영 학습 계획 (로컬 2주)
+# 서버 운영 학습 계획 
 
 > 목표: 맥(Apple Silicon)에서 모니터링 스택을 직접 띄우고, 일부러 망가뜨려서 알림까지 받아보기
-> 배경: 내년 랩실장·학교 서버장 준비 — Docker / Kubernetes / Prometheus 모니터링
-> 기간: 2026-10-23 ~ 2026-11-06 (CSI 측정과 병행)
+
 
 ## 환경
 
 | 구분 | 내용 |
 |---|---|
 | 로컬 | MacBook Pro, Apple M5 Pro, 24GB (ARM64) |
-| 학교 서버 | RTX 5090 ×3, V100 ×4, Quadro RTX 6000 ×1 |
+| 서버 | RTX 5090 ×3, V100 ×4, RTX 6000 ×1 |
 | 도구 | OrbStack, Docker, docker compose, k3d, kubectl, Helm |
 
 **맥 주의사항**
